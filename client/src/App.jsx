@@ -13,6 +13,7 @@ import { EventPage } from './pages/eventpage/EventPage';
 import { DashBoardAdmin } from './pages/dashboard_admin/DashBoardAdmin';
 import { DashBoardUser } from './pages/dashboard_user/DashBoardUser';
 import { DashBoardPosts } from './pages/dashboard_posts/DashBoardPosts';
+import { SinglePost } from './pages/single_post/SinglePost';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/dashboardAdmin" element={<DashBoardAdmin />} />
         <Route path="/dashboardAdmin/user" element={<DashBoardUser />} />
         <Route path="/dashboardAdmin/posts" element={<DashBoardPosts />} />
+        <Route path="/SinglePost/:id" element={<SinglePost />} />
       </Routes>
     </BrowserRouter>
   )

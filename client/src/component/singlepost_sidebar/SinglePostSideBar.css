@@ -1,0 +1,22 @@
+.SinglePostSideBar{
+    background: #eee;
+    flex: 4;
+}
+
+.SinglePostSideBar-Topic{
+    display: flex;
+    justify-content: center;
+    background: #111;
+}
+
+.SinglePostSideBar-span{
+    color: #fff;
+    padding: 10px;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.SinglePostSideBar-Content{
+    position: sticky;
+    top: 0;
+}

@@ -6,14 +6,14 @@ export const DashBoardFormPosts = () => {
       <div className='DashBoardFormPosts-Main'>
         <div className='DashBoardAdmin-span-box'>
           <div className='DashBoardFormPosts-line'></div>
-          <span className='DashBoardFormPosts-span'>ADD POTS</span>
+          <span className='DashBoardFormPosts-span'>ADD POST</span>
           <div className='DashBoardFormPosts-line'></div>
         </div>
         <form className='DashBoardFormPosts-form'>
           <img className='DashBoardFormPosts-img' src='' alt=''/>
           <label className='DashBoardFormPosts-label'>Image</label>
           <input 
-            type='file'
+            type='file' 
             className='DashBoardFormPosts-Image'
           />
           <label className='DashBoardFormPosts-label'>Topic</label>

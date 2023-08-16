@@ -1,0 +1,70 @@
+.Main-SinglePost{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.SinglePost-ads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: #eee;
+}
+
+.SinglePost-ads-img{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 1258px;
+    height: 250px;
+}
+
+.SinglePost-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.SinglePost-setblog{
+    display: flex;
+    width: 1258px;
+}
+
+.SinglePost-span{
+    font-size: 52px;
+    color: #111;
+}
+
+.SinglePost-date{
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.SinglePost-span-p{
+    border-bottom: 3px solid gray;
+}
+
+.IconContentDate{
+    margin: 10px 5px 0 0;
+}
+
+.SinglePost-Content{
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+}
+
+.SinglePost-flex{
+    flex: 8;
+}
+
+.SinglePost-Content-img{
+    object-fit: cover;
+    width: 660px;
+    height: 500px;
+    margin: 20px 0;
+}
+
+.SinglePost-Content-p{
+    font-size: 18px;
+    opacity: 0.8;
+}
