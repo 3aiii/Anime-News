@@ -1,0 +1,8 @@
+.DashBoardPosts{
+    background: rgb(231,231,231);
+    background: radial-gradient(circle, rgba(231,231,231,1) 0%, rgba(198,213,232,1) 100%, rgba(148,187,233,1) 100%);
+    height: 100vh;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+

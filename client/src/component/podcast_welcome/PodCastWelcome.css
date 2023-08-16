@@ -1,0 +1,46 @@
+
+.PodCastWelcome-img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.PodCastWelcome-img:hover{
+    opacity: 0.95;
+}
+
+.PodCastWelcome-span{
+    font-size: 24px;
+    color: #111;
+    text-decoration: none;
+}
+
+.PodCastWelcome-span:hover{
+    text-decoration: underline;
+}
+
+.PodCastWelcome-p{
+    line-height: 20px;
+    font-size: 16px;
+    opacity: 0.5;
+    margin: 10px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.PodCastWelcome-Author-Detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PodCastWelcome-Author > b{
+    font-weight: normal;
+}
+
+.PodCastWelcome-Author > b:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

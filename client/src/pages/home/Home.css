@@ -1,0 +1,17 @@
+.Main-Home-container{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.Home-Post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.space{
+    width: 1258px;
+    font-size: 28px;
+    border-bottom: 2px solid #8BBCCC;
+    margin-bottom: 2%;
+}

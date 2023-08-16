@@ -1,0 +1,51 @@
+.DashBoardFormPosts{
+    flex: 8;
+}
+
+.DashBoardFormPosts-Main{
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.DashBoardAdmin-span-box{
+    gap: 5em;
+    margin: 20px 0;
+    width: inherit;
+}
+
+.DashBoardFormPosts-line{
+    width: inherit;
+    height: 2px;
+    background: #111;
+}
+
+.DashBoardFormPosts-span{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.DashBoardFormPosts-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text],input[type=file],textarea,select{
+    border: 2px dashed rgb(170, 194, 219) ;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+}
+
+input[type=text],textarea,select:focus{
+    outline: none;
+}
+
+::placeholder{
+    opacity: 0.5;
+}

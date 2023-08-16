@@ -1,0 +1,21 @@
+.PostsPeople{
+    display: flex ;
+    flex-direction: column;
+}
+
+.Posts-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1257px;
+    gap: 1em;
+}
+
+.Post-slide{
+    margin: 20px 0;
+    border-bottom: 2px solid #8BBCCC;
+}
+
+.Posts-span{
+    font-size: 28px;
+    margin-bottom: 2%;
+}

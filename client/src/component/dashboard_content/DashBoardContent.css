@@ -1,0 +1,53 @@
+.DashBoardContent{
+    flex: 8;
+}
+
+.DashBoardContent-box-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1em;
+}
+
+.DashBoardContent-box{
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DashBoardContent-text{
+    text-align: center;
+}
+
+.DashBoardContent-span{
+    font-size: 22px;
+}
+
+.DashBoardContent-h2{
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.IconContent{
+    font-size: 82px;
+}
+
+.DashBoardContent-span-out{
+    margin: 15px 0;
+}
+
+.DashBoardContent-span-user{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.DashBoardContent-box-sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: #fff;
+    border-radius: 10px;
+}

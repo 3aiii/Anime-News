@@ -1,0 +1,52 @@
+.SideBarPodCast{
+    flex: 3;
+    background: #eee;
+    margin-left: 10px;;
+}
+
+.SideBarPodCast-img{
+    width: 320px;
+}
+
+.SideBarPodCast-box{
+    background: #111;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.SiderBarPodCast-content{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0
+}
+
+.SideBarPodCast-span{
+    font-size: 24px;
+    color: #fff;   
+}
+
+.SideBarPodCast-contact{
+    background: #000;
+}
+
+.SideBarPodCast-ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.SideBarPodCast-follow-main{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 0 20px;
+}
+
+.SideBarPodCast-follows{
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}

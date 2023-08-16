@@ -1,0 +1,22 @@
+.AllPosts{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 1em;
+}
+
+.LoadMore{
+    width: 1258px;
+    color: #111;
+    border: 1px solid #111;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.LoadMore:hover{
+    color: #fff;
+    background: #111;
+    transition: 0.4s;
+}

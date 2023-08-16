@@ -1,0 +1,126 @@
+.GamePage_Posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1258px;
+    margin-top: 20px;
+}
+
+.ads-block{
+    padding: 20px;
+    background: #eee;
+}
+
+.GamePage-ads-Post{
+    object-fit: cover;
+    width: 1218px;
+    height: 300px;
+}
+
+.GamePage_Posts-Main{
+    margin-top: 20px
+}
+
+.GamePage-Posts-Topic{
+    border-bottom: 2px solid #8BBCCC;
+    margin-bottom: 15px;
+}
+
+.GamePage-Posts-span{
+    font-size: 28px;
+}
+
+.GamePage-Posts-welcome{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 1em;
+    margin-bottom: 20px;
+}
+
+.Gamepage-Posts-img-box{
+    grid-column: 1/4;
+    position: relative;
+    overflow: hidden;
+}
+
+.GamePages-body-img{
+    width: 100%;
+    height: 350px;
+    top: 0;
+    right: -100% ;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.Gamepage-Posts-img-box:hover .GamePages-body-img{
+    right: 0;
+}
+
+.GamePages-main-img-1{
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.GamePages-main-span{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.GamePages-main-p{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.GamePages-main-img-2{
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.GamePages-main-a{
+    color: #111;
+    background: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    width: 120px;
+    text-align: center;   
+    transition: 0.2s;
+}
+
+.GamePages-main-a:hover{
+    background: #111;
+    color: #fff;   
+}
+
+/* SET GRID */
+.GamePage-Posts-content-current{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 1em;
+}
+
+.GamePage-Postss-content-all{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 1em;
+}

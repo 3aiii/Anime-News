@@ -1,0 +1,34 @@
+.Main-PostsPodCast-Container{
+    display: flex;
+    justify-content: center;
+    width: 1258px;
+    margin-top: 20px;
+    border-top: 2px solid #8BBCCC;
+    padding: 20px 0;
+}
+
+.PostsPodCast-content{
+    flex: 8;
+    display: grid;
+}
+
+.PostsPodCast-welcome{
+    display: grid;
+    grid-template-columns: repeat(2,450px);
+    gap: 1em;
+}
+
+.PostsPodCast-Topic{
+    border-bottom: 2px solid #8BBCCC;
+    margin: 15px 0;
+
+}
+
+.PostsPodCast-span{
+    font-size: 28px;
+}
+
+.PostsPodCast-post{
+    display: flex;
+    flex-direction: column;
+}

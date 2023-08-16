@@ -1,0 +1,10 @@
+.PeoplePage{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.Main-PeoplePage-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+

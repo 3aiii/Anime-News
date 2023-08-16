@@ -1,0 +1,9 @@
+.EventPage{
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.EventPage-Posts{
+    display: flex;
+    justify-content: center;
+}

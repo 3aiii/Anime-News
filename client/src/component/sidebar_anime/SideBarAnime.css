@@ -1,0 +1,25 @@
+.SideBarAnime{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    background: #eee;
+    justify-content: center;
+    align-items: center
+}
+
+.SideBarAnime-main{
+    background: #111;
+}
+
+.SideBarAnime-span{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.SideBarAnime-img{
+    object-fit: cover;
+    width: 275px;
+    height: 250px;
+}

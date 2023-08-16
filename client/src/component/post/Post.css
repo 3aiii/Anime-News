@@ -1,0 +1,85 @@
+.Post{
+    width: fit-content;
+    height: fit-content
+}
+
+.Main-Post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Post-a{
+    position: relative;
+}
+
+.Post-img{
+    object-fit: cover;
+    width: 300px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.Post-img-span{
+    position:absolute;
+    left: 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background:#111;
+    width: 15%;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 99;
+    text-align: center;
+}
+
+.Post-text{
+    margin: 20px 0 20px 0 ;
+    font-size: 18px;
+}
+
+.Post-Topic{
+    font-size: 24px;
+    text-decoration: none;
+    color: #111;
+}
+
+.Post-Topic:hover{
+    text-decoration:underline;
+}
+
+.Post-blog-DateAndCategory{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 8px 0;
+}
+
+.Post-Date{
+    font-size: 16px;
+}
+
+.Post-Cat{
+    text-decoration: none;
+    color: #111;
+    margin: 3px;
+    font-size: 14px;
+    border: 1px solid #111;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.Post-Cat:hover{
+    color: #fff;
+    background: #111;
+}
+
+.Post-desc{
+    /* hidden the desc in post more than 3 line */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    opacity: 0.5;
+}

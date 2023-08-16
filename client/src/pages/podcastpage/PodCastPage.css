@@ -1,0 +1,9 @@
+.PodCastPage{
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.PodCastPage-content{
+    display: flex;
+    justify-content: center;
+}

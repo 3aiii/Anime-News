@@ -1,0 +1,21 @@
+.PostAnime{
+    margin-left: 10px;
+}
+
+.PostAnime-date{
+    padding: 5px 0 5px 0;
+}
+
+.PostAnime-p{
+    opacity: 0.5;
+}
+
+.PostAnime-date{
+    text-align: center;
+}
+
+.PostAnimeDateandCat{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}

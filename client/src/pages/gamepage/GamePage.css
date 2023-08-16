@@ -1,0 +1,9 @@
+.GamePage{
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.Main-GamePage-Container{
+    display: flex;
+    justify-content: center;
+}

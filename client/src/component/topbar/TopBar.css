@@ -1,0 +1,99 @@
+.Main-Topbar-container{
+    background-color: #111;
+    color: #fff;
+}
+
+.Sub-Topbar-contaniner{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.Topbar-ul{
+    display : flex;
+    list-style-type: none;
+    margin: 0 10% 0 10%;
+}
+
+.Topbar-iconic {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 5px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    margin: 5%;
+}
+
+li > .Topbar-li{
+    position: relative;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 4%;
+    text-decoration: none;
+    color: #fff;
+}
+
+li > .Topbar-li::after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+
+li > .Topbar-li:hover::after{
+    width: 100%;
+}
+
+.Topbar-input-text{
+    color: #111;
+}
+
+::placeholder{
+    color: #111;
+    font-size: 12px;
+}
+
+.Topbar-search{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+.Topbar-input-text{
+    padding: 5px;
+    width: 300px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.IconTopbar > .TopbarIconSearch{
+    color: #111;
+    background: #fff;
+    text-align: center;
+    padding: 5px;
+    height: 28px;
+    width: 30px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.TopbarIconSearch:hover{
+    background: #FFD1DA;
+    transition: 0.5ms;
+}

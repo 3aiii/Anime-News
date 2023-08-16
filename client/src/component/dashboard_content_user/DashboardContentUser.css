@@ -1,0 +1,23 @@
+.DashBoardContent-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.DashBoardContent-name{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.DashBoardContent-date{
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.DashBoardContent-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}

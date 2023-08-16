@@ -1,0 +1,22 @@
+.Posts{
+    display: flex;
+    width: 1258px;
+    height: fit-content;
+}
+
+.Posts-Topic{
+    width: 1258px;
+}
+
+.Post-Topic-text{
+    font-size: 28px;
+    border-bottom: 2px solid #8BBCCC;
+    margin-bottom: 15px;
+}
+
+.Posts-box{
+    flex: 8;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    gap: 1em;
+}

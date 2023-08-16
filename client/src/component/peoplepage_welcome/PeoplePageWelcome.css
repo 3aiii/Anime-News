@@ -1,0 +1,64 @@
+.PeoplePage-welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.PeoplePage-welcome-width{
+    display: flex;
+    width: 1258px;
+}
+
+.People-welcome-img{
+    display: flex;
+    position: relative;
+}
+
+.People-welcome-img-true{
+    object-fit: cover;
+    width: 194px;
+    height: 276px;
+    border-radius: 5px;
+}
+
+.People-welcome-img-true:first-child{
+    position: inherit;
+    left: 8%;
+    z-index: 3;
+}
+
+.People-welcome-img-true:nth-child(2){
+    position: inherit;
+    left: 4%;
+    z-index: 2;
+}
+
+.PeoplePage-welcome-header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    margin-left: 2%;
+    width: fit-content;
+    height: 276px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.PeoplePage-iconic{
+    color: #fff;
+    background: #000;
+    font-size: 42px;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+}
+
+.PeoplePage-p{
+    font-size: 20px;
+    padding: 0 10px;
+}

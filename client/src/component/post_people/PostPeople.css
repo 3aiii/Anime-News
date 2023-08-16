@@ -1,0 +1,72 @@
+.Main-PostPeople{
+    display: flex;
+}
+
+.PostPeople-img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.PostPeople-text{
+    margin-left: 15px ;
+    font-size: 18px;
+}
+
+.PostPeople-Topic{
+    font-size: 24px;
+    text-decoration: none;
+    color: #111;
+}
+
+.PostPeople-Topic:hover{
+    text-decoration:underline;
+    
+}
+
+.PostPeople-blog-DateAndCategory{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 8px 0;
+}
+
+.PostPeople-Date{
+    font-size: 16px;
+}
+
+.PostPeople-Cat{
+    text-decoration: none;
+    color: #111;
+    margin: 3px;
+    font-size: 14px;
+    border: 1px solid #111;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.PostPeople-Cat:hover{
+    color: #fff;
+    background: #111;
+}
+
+.PostPeople-desc{
+    /* hidden the desc in post more than 3 line */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.PostPeople-Author{
+    cursor: pointer;
+}
+
+.PostPeople-Author:hover{
+    text-decoration: underline;
+}
+
+.end-line{
+    border-bottom: 2px solid #e1e1e1;
+    margin: 10px 0 ;
+}

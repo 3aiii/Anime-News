@@ -1,0 +1,16 @@
+.AnimePage{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.Main-AnimePage-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PostAnime-Topic{
+    display: flex;
+    width: 1258px;
+    justify-content: center;
+}

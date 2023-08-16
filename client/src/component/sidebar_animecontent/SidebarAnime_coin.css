@@ -1,0 +1,33 @@
+.SidebarAnime_coin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #8BBCCC;
+    border-bottom: 1px solid #8BBCCC;
+    border-right: 1px solid #8BBCCC;
+    margin: 10px;
+}
+
+.SidebarAnime_coin-img{
+    object-fit: cover;
+    width: 130px;
+    height: 100px;
+}
+
+.SidebarAnime_coin-text{
+    padding: 10px;
+}
+
+.SidebarAnime_coin-span{
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-decoration: none;
+    color: #111;
+}
+
+.SidebarAnime_coin-span:hover{
+    text-decoration: underline;    
+}

@@ -1,0 +1,48 @@
+.DashBoardContent-posts{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1em;
+}
+
+.DashBoardContent-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.DashBoardContent-post-text{
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.DashBoardContent-post-img{
+    width: 200px;
+    height: 150px;
+}
+
+.DashBoardContent-post-span{
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.DashBoardContent-post-p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.DashBoardContent-post-date{
+    padding-top: 5px;
+    font-size: 14px;
+}
