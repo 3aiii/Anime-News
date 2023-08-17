@@ -1,4 +1,4 @@
-import { DashBoardFormPosts } from '../../component/dashboard_form_posts/DashBoardFormPosts'
+import { DashBoardFormUser } from '../../component/dashboard_form_user/DashBoardFormUser'
 import { DashBoardMenu } from '../../component/dashboard_menu/DashBoardMenu'
 import './DashBoardUser.css'
 
@@ -25,7 +25,7 @@ export const DashBoardUser = () => {
       </div>
       <div className='DashBoardAdmin-content'>
         <DashBoardMenu/>
-        <DashBoardFormPosts/>
+        <DashBoardFormUser/>
       </div>
     </div>
   )

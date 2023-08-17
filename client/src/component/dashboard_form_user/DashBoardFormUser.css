@@ -1,3 +1,60 @@
 .DashBoardFormUser{
     flex: 8;
 }
+
+.DashBoardFormUser-Main{
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.DashBoardFormUser-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.DashBoardFormUser-label:nth-child(2){
+    margin-left: 10px;
+}
+
+.DashBoardFormUser-label{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.DashBoardFormUser-Username,.DashBoardFormUser-FirstName,.DashBoardFormUser-LastName,.DashBoardFormUser-Password,.DashBoardFormUser-email{
+    border: 2px dashed rgb(170, 194, 219) ;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+
+.DashBoardFormUser-Username,.DashBoardFormUser-FirstName,.DashBoardFormUser-LastName,.DashBoardFormUser-Password,.DashBoardFormUser-email:focus{
+    outline: none;
+}
+
+.DashBoardFormUser-box-submit{
+    display: flex;
+    justify-content: end;
+}
+
+.DashBoardFormUser-submit{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    transition: 0.2s;
+}
+
+.DashBoardFormUser-submit:hover{
+    background: #fff;
+    color: #111;
+}

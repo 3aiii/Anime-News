@@ -28,7 +28,6 @@ export const SinglePost = () => {
                                 m Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites s
                                 ill in their infancy. Various versions have evolved over the years, sometimes by accident, sometime
                                 s on purpose (injected humour and the like).
-                                
                             </p>
                         </div>
                     </div>

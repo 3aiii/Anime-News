@@ -1,18 +1,20 @@
 .DashBoardFormPosts{
     flex: 8;
+    
 }
 
 .DashBoardFormPosts-Main{
+    display: flex;
     align-items: center;
     background: #fff;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
+    gap: 1em;
 }
 
 .DashBoardAdmin-span-box{
-    gap: 5em;
-    margin: 20px 0;
     width: inherit;
+    margin-bottom: 20px;
 }
 
 .DashBoardFormPosts-line{
@@ -23,28 +25,68 @@
 .DashBoardFormPosts-span{
     font-size: 32px;
     font-weight: 700;
-    letter-spacing: 2px;
 }
 
 .DashBoardFormPosts-form{
+    flex: 6;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
-input[type=text],input[type=file],textarea,select{
+.DashBoardFormPosts-img-mock{
+    flex: 4;
+}
+
+.DashBoardFormPosts-img{
+    object-fit: cover;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    border: 3px solid #e999;
+}
+
+.DashBoardPosts-box-submit{
+    display: flex;
+    justify-content: end;
+}
+
+.DashBoardFormPosts-submit{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    transition: 0.2s;
+}
+
+.DashBoardFormPosts-submit:hover{
+    background: #fff;
+    color: #111;
+}
+
+.DashBoardFormPosts-Image,.DashBoardFormPosts-topic,textarea,select{
     border: 2px dashed rgb(170, 194, 219) ;
     border-radius: 5px;
     padding: 5px;
     font-family: 'Poppins', sans-serif;
-    width: 500px;
+    margin: 10px 0;
 }
 
-input[type=text],textarea,select:focus{
+.DashBoardFormPosts-Image,.DashBoardFormPosts-topic,textarea,select:focus{
     outline: none;
 }
 
 ::placeholder{
     opacity: 0.5;
+}
+
+.DashBoardFormPosts-label{
+    font-size: 18px;
+    font-weight: 400;
 }
