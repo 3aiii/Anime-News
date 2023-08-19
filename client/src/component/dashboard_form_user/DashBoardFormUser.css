@@ -13,8 +13,11 @@
     flex-direction: column;
 }
 
-.DashBoardFormUser-label:nth-child(2){
-    margin-left: 10px;
+.DashBoardFormUser-Form-Fullname{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1em;
 }
 
 .DashBoardFormUser-label{
@@ -28,6 +31,7 @@
     border-radius: 5px;
     padding: 5px;
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     margin: 10px 0;
 }
 
@@ -57,4 +61,5 @@
 .DashBoardFormUser-submit:hover{
     background: #fff;
     color: #111;
+    
 }

@@ -82,8 +82,9 @@
     outline: none;
 }
 
-::placeholder{
+.DashBoardAdmin-FirstName,.DashBoardadmin-LastName::placeholder{
     opacity: 0.5;
+    font-size: 18px;    
 }
 
 .DashBoardFormPosts-label{

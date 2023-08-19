@@ -1,11 +1,12 @@
 import '../post/Post.css'
+import {Link} from 'react-router-dom'
 
 export const AllPost = () => {
   // const Date = 5
   return (
     <div className='AllPost'>
       <div className='Main-AllPost-container'>
-        <a href='/' className='Post-a'>
+        <Link to={`/SinglePost/1`} className='Post-a'>
             <img className='Post-img' src='https://cdn.animenewsnetwork.com/thumbnails/max600x600/cms/news.6/199021/vis-t2.webp' alt=''/>
             {
                 Date === 5 ? (
@@ -14,9 +15,9 @@ export const AllPost = () => {
                     <span></span>
                 )
             }
-        </a>
+        </Link>
         <div className='Post-text'>
-            <a href='/' className='Post-Topic'>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</a>
+            <Link to={`/SinglePost/1`} className='Post-Topic'>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</Link>
             <div className='Post-blog-DateAndCategory'>
                 <p className='Post-Date'>Aug 5,11:44</p>
                 <div className='Post-Cats'>

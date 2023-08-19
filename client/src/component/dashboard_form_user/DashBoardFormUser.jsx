@@ -10,13 +10,13 @@ export const DashBoardFormUser = () => {
             <p className='DashBoardFormPosts-p'>Create a New User</p>
           </div>
           <div className='DashBoardFormUser-Form-Fullname'>
-            <label className='DashBoardFormUser-label'>FirstName</label>
+            {/* <label className='DashBoardFormUser-label'>FirstName</label> */}
             <input 
               type='text' 
               placeholder='FirstName'
               className='DashBoardFormUser-FirstName'
             />
-            <label className='DashBoardFormUser-label'>LastName</label>
+            {/* <label className='DashBoardFormUser-label'>LastName</label> */}
             <input 
               type='text' 
               placeholder='LastName'

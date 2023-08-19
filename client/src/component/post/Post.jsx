@@ -1,4 +1,5 @@
 import './Post.css'
+import {Link} from 'react-router-dom'
 
 export const Post = () => {
     // Date is a present date gonna put <span></span>
@@ -7,7 +8,7 @@ export const Post = () => {
     return (
         <div className='Post'>
             <div className='Main-Post'>
-                <a href='/' className='Post-a'>
+                <Link to={`/SinglePost/1`} className='Post-a'>
                     <img className='Post-img' src='https://inwfile.com/s-dj/5nxnoz.jpg' alt=''/>
                     {
                         Date === 5 ? (
@@ -16,16 +17,16 @@ export const Post = () => {
                             <span></span>
                         )
                     }
-                </a>
+                </Link>
                 <div className='Post-text'>
-                    <a href='/' className='Post-Topic'>1914 translation by H. Rackham</a>
+                    <Link to={`/SinglePost/1`} className='Post-Topic'>1914 translation by H. Rackham</Link>
                     <div className='Post-blog-DateAndCategory'>
                         <p className='Post-Date'>Aug 5,11:44</p>
                         <div className='Post-Cats'>
-                            <a href='/' className='Post-Cat'>people</a>
-                            <a href='/' className='Post-Cat'>anime</a>
-                            <a href='/' className='Post-Cat'>game</a>
-                            <a href='/' className='Post-Cat'>podcast</a>
+                            <Link to={`/category`} className='Post-Cat'>people</Link>
+                            <Link to={`/category`} className='Post-Cat'>anime</Link>
+                            <Link to={`/category`} className='Post-Cat'>game</Link>
+                            <Link to={`/category`} className='Post-Cat'>podcast</Link>
                         </div>
                     </div>
                     <p className='Post-desc'>
